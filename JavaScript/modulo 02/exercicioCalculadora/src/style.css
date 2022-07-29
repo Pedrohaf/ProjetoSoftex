@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    max-width: 400px;
+    padding: 0;
+    margin: 0 auto !important;
+    background-color: blanchedalmond;
+}
+.calculadora{
+    width: 250px;
+    height: 230px;
+    background-color: black;  
+}
+.painel{
+   background-color: black;
+   width: 250px;
+   height: 100px;
+   margin-top: 30%;
+   color: white ;
+   font: normal 20pt arial;
+   text-align: right;
+   
+}
+.painel p{
+    float: right;
+    margin-top: 30px;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+button{
+    width: 58.5px;
+    background-color:#101010 ;
+    color: white;
+}  
