@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Digite as notas das 3 provas: </h3>
+    <div>
+        <input type="number" name="n1" id="n1" placeholder="Prova 1">
+        <input type="number" name="n2" id="n2" placeholder="Prova 2">
+        <input type="number" name="n3" id="n3" placeholder="Prova 3">
+        <input type="button" value="Verificar" onclick="verificar ()">
+        <P id="estado" >Estado do aluno</P>
+        <p id="notaAtual" >Nota atual</p>
+    </div>
+
+    <script>
+    
+        function verificar (){
+             var nota1 = document.getElementById('n1')
+             var nota2 = document.getElementById('n2')
+             var nota3 = document.getElementById('n3')
+             var res = document.getElementById('estado')
+             var atual = document.getElementById('notaAtual')
+             var not1 = Number(nota1.value)  
+             var not2 = Number(nota2.value)  
+             var not3 = Number(nota3.value)  
+             var result  = ((not1 + not2 + not3) / 3)
+              if (result < 7){
+                 res.innerHTML = 'Situaçao do aluno : Reprovado'
+                 atual.innerHTML = 'Media atual do aluno é: ' + result
+             }
+             else{
+                 res.innerHTML = "Situaçao do aluno : Aprovado"
+                 atual.innerHTML = 'Media atual do aluno é: ' + result
+             }
+        }
+    </script>
+</body>
+</html>
