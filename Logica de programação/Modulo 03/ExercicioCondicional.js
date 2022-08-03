@@ -15,7 +15,7 @@ if (quantPessoas == 4 & quantPessoas <= 8 & peso <= 3500){
 
 // Condição para Habilitação tipo C
 if (quantRodas >= 4 ){
-    if(peso >= 3500 & peso <= 6000){
+    if(peso >= 3500 & peso <= 6000 & quantPessoas >=8 ){
         console.log('Abilitação inidicada: tipo C')
     }
 }
