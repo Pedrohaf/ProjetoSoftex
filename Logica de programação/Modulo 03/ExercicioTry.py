@@ -9,7 +9,7 @@ try:
             if anoNascimento <= 1922 & anoNascimento >= 2021:
                 idadeAtual = 2022 - anoNascimento
                 print('Você ira completar: ', idadeAtual, " Em 2022" )
-                tete = False
+                teste = False
         else:
             print("Error < Digite Um numero valido para Ano > ")
 except Exception as erro :
