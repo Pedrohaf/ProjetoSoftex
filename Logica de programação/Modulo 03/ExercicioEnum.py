@@ -74,7 +74,7 @@ def votacao():
                 const0 = const0 + 1
             elif comfirm == 2:
                 votacao()
-        opc = int(input(''']
+        opc = int(input('''
         Desja votar novamente ?
         1. Para SIM
         2. Para NÂO
