@@ -52,6 +52,7 @@
 .paragrafo{
     margin-top: 100px;
     padding-left: 30px;
+    padding-top: 30px;
 }
 
 
@@ -62,4 +63,5 @@
     right: 0;
     top: 900px;
     margin-top: 50px;
+    padding-top: 60px;
 }
