@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import CompontenteReact from './componente react/ComponenteReact'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
        <p>Pedro Henrique Almeida Ferreira</p>
-      </header>
+       <CompontenteReact nome ="Pedro" />
     </div>
   );
 }
