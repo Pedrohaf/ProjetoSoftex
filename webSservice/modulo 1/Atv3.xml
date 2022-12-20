@@ -1,0 +1,21 @@
+<?xml version='1.0'>
+<clientes>
+    <cliente>
+        <nome></nome>
+        <endereços> 
+            <endereco><endereco>
+        </endereços>
+        <telefones>
+            <telefone> </telefone>
+        </telefones>
+    </cliente>
+    <cliente>
+        <nome></nome>
+        <endereços> 
+            <endereco><endereco>
+        </endereços>
+        <telefones>
+            <telefone> </telefone>
+        </telefones>
+    </cliente>
+</clientes>
